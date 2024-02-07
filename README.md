@@ -3,4 +3,4 @@
 
  Aham é os d né vidan
 
-<p><a href="https://yantheisenn.github.io/html-css/exerc%C3%ADcios/ex001">ex001</p>
+<p><a href="https://yantheisenn.github.io/html-css/exercicio001/index.html">ex001</p>
