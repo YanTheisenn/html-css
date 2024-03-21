@@ -10,21 +10,20 @@
         }
         
         table{
-            border-collapse: collapse;
+            height: 400px;
             width: 400px;
+            border-collapse: collapse;
         }
         
-        tr.linha{
-            background-color: red;
-        }
-
         td{
             border: 1px solid black;
             padding: 8px;
+            text-align: center; /*Alinhamento horizontal*/
+            vertical-align: middle; /*Alinhamento vertical*/
         }
 
-        td.dado{
-            background-color: yellow;
+        .numero{
+            text-align: right;
         }
     </style>
 </head>
@@ -38,20 +37,20 @@
                 TABLE DATA = dados de tabela
     -->
     <table>
-        <tr class="linha"> <!--Pimeira linha-->
+        <tr> <!--Pimeira linha-->
             <td>A1</td>
             <td>B1</td>
             <td>C1</td>
         </tr>
         <tr> <!--Segunda linha-->
-            <td class="dado">A2</td>
+            <td>A2</td>
             <td>B2</td>
-            <td>C2</td>
+            <td class="numero">C2</td>
         </tr>
         <tr> <!--Terceira linha-->
             <td>A3</td>
             <td>B3</td>
-            <td>C3</td>
+            <td class="numero">C3</td>
         </tr>
         <tr> <!--Quarta linha-->
             <td>A4</td>
